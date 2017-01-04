@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('state');
+  this.route('national');
+  this.route('ngo');
+  this.route('international');
 });
 
 export default Router;

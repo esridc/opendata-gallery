@@ -1,0 +1,64 @@
+@import 'bootstrap';
+@import 'calcite-bootstrap';
+
+.jumbotron {
+  background: url('/gallery/dc_skyline2.jpg') no-repeat;
+  height: 600px;
+  background-size: cover;
+  
+}
+
+
+.footer {
+	padding-top: 10px;
+	position: relative;
+	width: 100%;
+	height: 64px;
+}
+
+
+.list-group {
+	padding-left: 30px; 
+	float: left;
+}
+
+.thumbnail {
+	min-height: 200px;
+	width: 100%;
+}
+
+
+#categories{
+	max-width: 400px; 
+	padding-top: 30px;
+}
+
+
+#content {
+	max-width: 1280px; 
+	margin: auto; 
+	padding: 10px;
+}
+
+#row {
+	float: left;
+
+}
+
+.caption {
+	padding-bottom: 30px;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	max-height: 50px;
+
+}
+
+
+.list-group-item {
+	font-weight: bold;
+}
+
+#row{
+	padding-bottom: 40px;
+}

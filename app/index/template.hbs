@@ -1,0 +1,73 @@
+<div class="jumbotron">
+	<div class="container"></div>
+</div>
+	{{!-- sidebar --}}
+	<div class="container">
+		<h1 class="col-xs-12">Open Data Sites</h1>
+		<h4>This is but a small sample of the current Open Data sites that exists for you to explore and draw inspiration from for your own site. You can browse by different types of sites using he navigationon the right.</h4>
+
+		<div class=" col-xs-12 col-sm-4" id="categories">
+			{{!-- <div class="row"> --}}
+				<div class="list-group">
+						{{#link-to (query-params scope='') class="list-group-item list-group-item-action"}}All{{/link-to}}
+
+					   	{{#link-to (query-params scope='local') class="list-group-item list-group-item-action"}}Local{{/link-to}}
+					   
+					   	{{#link-to (query-params scope='state') class="list-group-item list-group-item-action"}}State{{/link-to}}
+					  
+					   	{{#link-to (query-params scope='national') class="list-group-item list-group-item-action"}}National{{/link-to}}
+					  
+					   	{{#link-to (query-params scope='international') class="list-group-item list-group-item-action"}}International{{/link-to}}
+					  
+					   	{{#link-to (query-params scope="ngo") class="list-group-item list-group-item-action"}}Non-governmental organizations{{/link-to}}
+				</div>
+		</div>
+
+
+	{{!-- /sidebar --}}
+
+		<div class="col-xs-12 col-sm-8" id="content">
+			<div  class="row">				
+				<br>
+				    	{{#each filteredSites as |site|}}
+									<div class="col-xs-12 col-md-6 col-lg-4 " id="row">
+										<div class="thumbnail" >
+											<a title="{{site.title}}" href="{{site.link}}" target="_blank">
+												<img src="{{site.img}}" alt="...">
+											</a>
+											
+										</div>
+										<div class="caption">
+											<p>{{site.title}}</p>
+											<p>{{site.caption}}</p>
+										</div>
+									</div>
+
+				    	{{/each}}  
+				</div>
+			</div>
+		
+	</div>
+
+		<footer class="footer one-line hidden-xs col-sm-2 col-md-3" role="contentinfo">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-xs-12 col-sm-8 col-md-9">
+						<ul class="text-muted list-inline">
+						<li>© 2016 Esri</li>
+						<li>|</li>
+						<li>
+							<a href="http://www.esri.com/legal/privacy" target="_blank" class="ember-view">Privacy</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="http://www.esri.com/legal/software-license" target="_blank" class="ember-view">Terms of Use</a>
+						</li>
+						</ul>
+					</div>		
+							<a href="http://www.esri.com/" target="_blank" class="ember-view"><img src="http://prod-od-umbrella.s3-website-us-east-1.amazonaws.com/assets/images/logo-esri-footer-6065f972b9b92cce5e3fc5866257f69f.jpg" alt="About Esri"></a>
+						
+
+				</div>
+			</div>
+		</footer>
