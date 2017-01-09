@@ -11,7 +11,7 @@ export default Ember.Controller.extend({
 		// console.log(scope);
 		if (scope) {
 			return index.filter ( site =>{
-				return site.tags === scope; 
+				return site.scope === scope; 
 			});
 		} else {
 			return index; 
