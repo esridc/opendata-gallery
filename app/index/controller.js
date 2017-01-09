@@ -8,10 +8,10 @@ export default Ember.Controller.extend({
 		var scope = this.get('scope');
 		var index = this.get('model');
 
-		// console.log(scope);
+		console.log(scope);
 		if (scope) {
 			return index.filter ( site =>{
-				return site.scope === scope; 
+				return site.scope.includes(scope) 
 			});
 		} else {
 			return index; 
