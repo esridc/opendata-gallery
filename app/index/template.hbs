@@ -1,49 +1,73 @@
+
+
 <div class="jumbotron">
 	<div class="container"></div>
 </div>
 	{{!-- sidebar --}}
 	<div class="container">
 		<h1 class="col-xs-12">Open Data Sites</h1>
-		<h4>This is but a small sample of the current Open Data sites that exists for you to explore and draw inspiration from, for your own site. You can browse sites that focus specifically on providing open data for local communities, or you can look at those with wider, national, or  international scopes.</h4>
+		<h4>Explore our Open Data Site Showcase to see what others have done with Open Data sites. Filter by region to narrow or expand the scope.</h4>
 
 		<div class=" col-xs-12 col-sm-4" id="categories">
-			<div class="list-group">
-					{{#link-to (query-params scope='') class="list-group-item list-group-item-action"}}All{{/link-to}}
-
-				   	{{#link-to (query-params scope='local') class="list-group-item list-group-item-action"}}Local{{/link-to}}
-				   
-				   	{{#link-to (query-params scope='state') class="list-group-item list-group-item-action"}}State{{/link-to}}
-				  
-				   	{{#link-to (query-params scope='national') class="list-group-item list-group-item-action"}}National{{/link-to}}
-				  
-				   	{{#link-to (query-params scope='international') class="list-group-item list-group-item-action"}}International{{/link-to}}
-				  
-				   	{{#link-to (query-params scope="ngo") class="list-group-item list-group-item-action"}}Non-governmental Organizations{{/link-to}}
-			</div>
+			<aside id="sidebar-left" class="sidebar-navigation">
+				<h2>Filter By</h2>
+					<div class="ember-view filter-items-group">
+						<label class="filter-headings">Tags</label>
+							<div class="ember-view form-group filter-items-group">
+								<div class="checkbox">
+									<label class="selected-checkbox">
+									{{#link-to (query-params scope='') id="all" class="ember-view" type="checkbox"}}All{{/link-to}}
+									</label>
+									<br>
+									<label>
+								   	{{#link-to (query-params scope='local') id="Local" class="ember-view"}}Local{{/link-to}}
+								   	</label>
+								   	<br>
+								   	<label>
+								   	{{#link-to (query-params scope='state') id="state" class="ember-view"}}State{{/link-to}}
+								  	</label>
+								  	<br>
+								  	<label>
+								   	{{#link-to (query-params scope='national') id="national" class="ember-view"}}National{{/link-to}}
+								  	</label>
+								  	<br>
+								  	<label>
+								   	{{#link-to (query-params scope='international') id="international" class="ember-view"}}International{{/link-to}}
+								  	</label>
+								  	<br>
+								  	<label>
+								   	{{#link-to (query-params scope="ngo") id="ngo" class=" ember-view"}}Non-governmental Organizations{{/link-to}}
+								   	</label>
+								</div>
+							</div>
+					</div>
+			</aside>
 		</div>
 
 
 	{{!-- /sidebar --}}
 
-		<div class="col-xs-12 col-sm-8" id="content">
+		<div id="content" class="col-xs-12 col-sm-8">
 			<div  class="row">				
 				<br>
-				    	{{#each filteredSites as |site|}}
-									<div class="col-xs-12 col-md-6 col-lg-4 " id="row">
-										<div class="thumbnail" >
-											<a title="{{site.title}}" href="{{site.url}}" target="_blank">
-												<img src="{{site.img}}" alt="...">
+			    	{{#each filteredSites as |site|}}
+								<div class="col-xs-12 col-md-6 col-lg-4 ">
+									<div class="thumbnail">
+										<div class="overlay gallery-hover">
+											<a title="{{site.properties.title}}" href="{{site.properties.url}}" target="_blank">
+											<span class="glyphicon glyphicon-link"></span>
+												<img src="{{site.properties.img}}" alt="...">
 											</a>
-											
 										</div>
+									</div>
 										<div class="caption">
-											<p>{{site.title}}</p>
-											<p>{{site.caption}}</p>
+											<p class="text-center"><a title="{{site.properties.title}}" href="{{site.properties.url}}" target="_blank">{{site.properties.title}}</a></p>
+												<p></p>
 										</div>
 									</div>
 
-				    	{{/each}}  
-				</div>
+			    	{{/each}}  
+								</div>
 			</div>
 		
 	</div>

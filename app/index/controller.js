@@ -11,7 +11,7 @@ export default Ember.Controller.extend({
 		console.log(scope);
 		if (scope) {
 			return index.filter ( site =>{
-				return site.scope.includes(scope) 
+				return site.properties.scope.includes(scope); 
 			});
 		} else {
 			return index; 
