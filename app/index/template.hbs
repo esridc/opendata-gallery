@@ -1,8 +1,28 @@
-
-
-<div class="jumbotron">
+{{!-- <div class="jumbotron">
 	<div class="container"></div>
 </div>
+ --}}
+
+<div id="map">
+{{#leaflet-map lat=20.3907243 lng=11.8715978 zoom=3}}
+	{{tile-layer url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png'}}
+	
+	{{#each filteredSites as |extent|}}
+
+		{{#polygon-layer locations=extent.geometry.coordinates color='blue'}}
+		{{#tooltip-layer sticky=true}}
+			{{extent.properties.title}}
+		{{/tooltip-layer}}
+		{{/polygon-layer}}
+	{{/each}}
+
+	
+	
+	
+
+{{/leaflet-map}}
+</div>
+
 	{{!-- sidebar --}}
 	<div class="container">
 		<h1 class="col-xs-12">Open Data Sites</h1>
@@ -43,6 +63,7 @@
 					</div>
 			</aside>
 		</div>
+
 
 
 	{{!-- /sidebar --}}
