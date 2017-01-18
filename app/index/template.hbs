@@ -12,6 +12,7 @@
 		{{#polygon-layer locations=extent.geometry.coordinates color='blue'}}
 		{{#tooltip-layer sticky=true}}
 			{{extent.properties.title}}
+			{{extent.properties.url}}
 		{{/tooltip-layer}}
 		{{/polygon-layer}}
 	{{/each}}

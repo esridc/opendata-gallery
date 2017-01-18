@@ -289,38 +289,38 @@ let sites = [
         "id": "7203"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -72.67267629420988,
-                161.69675114151386
-            ],
-            [
-                -72.67267629420988,
-                -161.69675114151386
-            ],
-            [
-                80.69452318405213,
-                -161.69675114151386
-            ],
-            [
-                80.69452318405213,
-                161.69675114151386
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/5226.jpg",
-        "url": "http://activities.uia.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "UNIGIS International Association",
-        "id": "5226"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -72.67267629420988,
+//                 161.69675114151386
+//             ],
+//             [
+//                 -72.67267629420988,
+//                 -161.69675114151386
+//             ],
+//             [
+//                 80.69452318405213,
+//                 -161.69675114151386
+//             ],
+//             [
+//                 80.69452318405213,
+//                 161.69675114151386
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/5226.jpg",
+//         "url": "http://activities.uia.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "UNIGIS International Association",
+//         "id": "5226"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -609,38 +609,38 @@ let sites = [
         "id": "6515"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -0.000351376023381071,
-                0.0013479400501270242
-            ],
-            [
-                -0.000351376023381071,
-                0.00126523216191814
-            ],
-            [
-                -0.0003182461557069462,
-                0.00126523216191814
-            ],
-            [
-                -0.0003182461557069462,
-                0.0013479400501270242
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/3744.jpg",
-        "url": "http://data.vicforeststrp.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "VicForests",
-        "id": "3744"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -0.000351376023381071,
+//                 0.0013479400501270242
+//             ],
+//             [
+//                 -0.000351376023381071,
+//                 0.00126523216191814
+//             ],
+//             [
+//                 -0.0003182461557069462,
+//                 0.00126523216191814
+//             ],
+//             [
+//                 -0.0003182461557069462,
+//                 0.0013479400501270242
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/3744.jpg",
+//         "url": "http://data.vicforeststrp.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "VicForests",
+//         "id": "3744"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -961,38 +961,38 @@ let sites = [
         "id": "8326"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -85.28377875257299,
-                218.05662499995051
-            ],
-            [
-                -85.28377875257299,
-                -148.97462499995433
-            ],
-            [
-                84.6781838464557,
-                -148.97462499995433
-            ],
-            [
-                84.6781838464557,
-                218.05662499995051
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/12476.jpg",
-        "url": "http://cwt.nga.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "Combating Wildlife Trafficking",
-        "id": "12476"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -85.28377875257299,
+//                 218.05662499995051
+//             ],
+//             [
+//                 -85.28377875257299,
+//                 -148.97462499995433
+//             ],
+//             [
+//                 84.6781838464557,
+//                 -148.97462499995433
+//             ],
+//             [
+//                 84.6781838464557,
+//                 218.05662499995051
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/12476.jpg",
+//         "url": "http://cwt.nga.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "Combating Wildlife Trafficking",
+//         "id": "12476"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -1569,38 +1569,38 @@ let sites = [
         "id": "5176"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                3.925091482950093,
-                6.767660620667537
-            ],
-            [
-                3.925091482950093,
-                -6.06437063818758
-            ],
-            [
-                20.854195236954897,
-                -6.06437063818758
-            ],
-            [
-                20.854195236954897,
-                6.767660620667537
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/5532.jpg",
-        "url": "http://data.pnw.opendata.arcgis.com",
-        "scope": [
-            "local"
-        ],
-        "title": "Pacific Northwest Maps",
-        "id": "5532"
-    }
-},
+// {
+    // "geometry": {
+    //     "type": "Polygon",
+    //     "coordinates": [
+    //         [
+    //             3.925091482950093,
+    //             6.767660620667537
+    //         ],
+    //         [
+    //             3.925091482950093,
+    //             -6.06437063818758
+    //         ],
+    //         [
+    //             20.854195236954897,
+    //             -6.06437063818758
+    //         ],
+    //         [
+    //             20.854195236954897,
+    //             6.767660620667537
+    //         ]
+    //     ]
+    // },
+    // "properties": {
+    //     "img": "/gallery/images/5532.jpg",
+    //     "url": "http://data.pnw.opendata.arcgis.com",
+    //     "scope": [
+    //         "local"
+    //     ],
+    //     "title": "Pacific Northwest Maps",
+    //     "id": "5532"
+    // }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -2753,38 +2753,38 @@ let sites = [
         "id": "816"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                21.867099999999642,
-                123.91429999999784
-            ],
-            [
-                21.867099999999642,
-                118.11439999999791
-            ],
-            [
-                25.32239999999957,
-                118.11439999999791
-            ],
-            [
-                25.32239999999957,
-                123.91429999999784
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/880.jpg",
-        "url": "http://omygod.idtsupport.opendata.arcgis.com",
-        "scope": [
-            "international"
-        ],
-        "title": "\u570b\u5bb6\u707d\u5bb3\u9632\u6551\u79d1\u6280\u4e2d\u5fc3\u958b\u653e\u8cc7\u6599\u7db2\u7ad9",
-        "id": "880"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 21.867099999999642,
+//                 123.91429999999784
+//             ],
+//             [
+//                 21.867099999999642,
+//                 118.11439999999791
+//             ],
+//             [
+//                 25.32239999999957,
+//                 118.11439999999791
+//             ],
+//             [
+//                 25.32239999999957,
+//                 123.91429999999784
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/880.jpg",
+//         "url": "http://omygod.idtsupport.opendata.arcgis.com",
+//         "scope": [
+//             "international"
+//         ],
+//         "title": "\u570b\u5bb6\u707d\u5bb3\u9632\u6551\u79d1\u6280\u4e2d\u5fc3\u958b\u653e\u8cc7\u6599\u7db2\u7ad9",
+//         "id": "880"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -3009,38 +3009,38 @@ let sites = [
         "id": "7628"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -78.72600127083632,
-                173.2761874999542
-            ],
-            [
-                -78.72600127083632,
-                -183.9113124999523
-            ],
-            [
-                81.44584620694361,
-                -183.9113124999523
-            ],
-            [
-                81.44584620694361,
-                173.2761874999542
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/7630.jpg",
-        "url": "http://na.ebolaresponse.opendata.arcgis.com",
-        "scope": [
-            "national"
-        ],
-        "title": "Ebola",
-        "id": "7630"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -78.72600127083632,
+//                 173.2761874999542
+//             ],
+//             [
+//                 -78.72600127083632,
+//                 -183.9113124999523
+//             ],
+//             [
+//                 81.44584620694361,
+//                 -183.9113124999523
+//             ],
+//             [
+//                 81.44584620694361,
+//                 173.2761874999542
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/7630.jpg",
+//         "url": "http://na.ebolaresponse.opendata.arcgis.com",
+//         "scope": [
+//             "national"
+//         ],
+//         "title": "Ebola",
+//         "id": "7630"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -3265,38 +3265,38 @@ let sites = [
         "id": "9004"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                6.875525859916589,
-                3.4277343749986984
-            ],
-            [
-                6.875525859916589,
-                -196.7871093749476
-            ],
-            [
-                60.77704182929749,
-                -196.7871093749476
-            ],
-            [
-                60.77704182929749,
-                3.4277343749986984
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/7926.jpg",
-        "url": "http://osav.usdot.opendata.arcgis.com",
-        "scope": [
-            "national"
-        ],
-        "title": "Geospatial at the Bureau of Transportation Statistics",
-        "id": "7926"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 6.875525859916589,
+//                 3.4277343749986984
+//             ],
+//             [
+//                 6.875525859916589,
+//                 -196.7871093749476
+//             ],
+//             [
+//                 60.77704182929749,
+//                 -196.7871093749476
+//             ],
+//             [
+//                 60.77704182929749,
+//                 3.4277343749986984
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/7926.jpg",
+//         "url": "http://osav.usdot.opendata.arcgis.com",
+//         "scope": [
+//             "national"
+//         ],
+//         "title": "Geospatial at the Bureau of Transportation Statistics",
+//         "id": "7926"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -3393,38 +3393,38 @@ let sites = [
         "id": "10220"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.0003378384120599728,
-                -0.0009019175284088406
-            ],
-            [
-                0.0003378384120599728,
-                -0.0010134433709322792
-            ],
-            [
-                0.0003683721485657984,
-                -0.0010134433709322792
-            ],
-            [
-                0.0003683721485657984,
-                -0.0009019175284088406
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/10054.jpg",
-        "url": "http://data.wildutahproject.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "Wild Utah Project Open Data",
-        "id": "10054"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.0003378384120599728,
+//                 -0.0009019175284088406
+//             ],
+//             [
+//                 0.0003378384120599728,
+//                 -0.0010134433709322792
+//             ],
+//             [
+//                 0.0003683721485657984,
+//                 -0.0010134433709322792
+//             ],
+//             [
+//                 0.0003683721485657984,
+//                 -0.0009019175284088406
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/10054.jpg",
+//         "url": "http://data.wildutahproject.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "Wild Utah Project Open Data",
+//         "id": "10054"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -4417,38 +4417,38 @@ let sites = [
         "id": "4579"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -0.00019644358632441014,
-                0.0003726571124641423
-            ],
-            [
-                -0.00019644358632441014,
-                -0.0002968662519429782
-            ],
-            [
-                0.0004481694952478682,
-                -0.0002968662519429782
-            ],
-            [
-                0.0004481694952478682,
-                0.0003726571124641423
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/4707.jpg",
-        "url": "http://home.ebolaresponse.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "Ebola Response",
-        "id": "4707"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -0.00019644358632441014,
+//                 0.0003726571124641423
+//             ],
+//             [
+//                 -0.00019644358632441014,
+//                 -0.0002968662519429782
+//             ],
+//             [
+//                 0.0004481694952478682,
+//                 -0.0002968662519429782
+//             ],
+//             [
+//                 0.0004481694952478682,
+//                 0.0003726571124641423
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/4707.jpg",
+//         "url": "http://home.ebolaresponse.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "Ebola Response",
+//         "id": "4707"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -4833,38 +4833,38 @@ let sites = [
         "id": "824"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                23.560962423770295,
-                -55.69554761541033
-            ],
-            [
-                23.560962423770295,
-                -134.7472926179282
-            ],
-            [
-                50.3092170302897,
-                -134.7472926179282
-            ],
-            [
-                50.3092170302897,
-                -55.69554761541033
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/850.jpg",
-        "url": "http://lincolncountymngisdata.lcmn.opendata.arcgis.com",
-        "scope": [
-            "local"
-        ],
-        "title": "Lincoln County MN GIS Data",
-        "id": "850"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 23.560962423770295,
+//                 -55.69554761541033
+//             ],
+//             [
+//                 23.560962423770295,
+//                 -134.7472926179282
+//             ],
+//             [
+//                 50.3092170302897,
+//                 -134.7472926179282
+//             ],
+//             [
+//                 50.3092170302897,
+//                 -55.69554761541033
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/850.jpg",
+//         "url": "http://lincolncountymngisdata.lcmn.opendata.arcgis.com",
+//         "scope": [
+//             "local"
+//         ],
+//         "title": "Lincoln County MN GIS Data",
+//         "id": "850"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -5429,102 +5429,102 @@ let sites = [
 //             ]
 //         ]
 //     },
-    "properties": {
-        "img": "/gallery/images/10194.jpg",
-        "url": "http://forestrybureau.idt.opendata.arcgis.com",
-        "scope": [
-            "international"
-        ],
-        "title": "\u6797\u52d9\u5c40\u8cc7\u6599\u958b\u653e\u670d\u52d9\u5c08\u5340",
-        "id": "10194"
-    }
-},
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.00038367045784851487,
-                -0.0007587170889673477
-            ],
-            [
-                0.00038367045784851487,
-                -0.0007591482803037251
-            ],
-            [
-                0.0003839040198205487,
-                -0.0007591482803037251
-            ],
-            [
-                0.0003839040198205487,
-                -0.0007587170889673477
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/10219.jpg",
-        "url": "http://fis.msugis.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "MSU Infrastructure Planning and Facilities GeoPortal",
-        "id": "10219"
-    }
-},
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.0003460400305952509,
-                -0.000690903268169165
-            ],
-            [
-                0.0003460400305952509,
-                -0.0006919363307459024
-            ],
-            [
-                0.00034640833985786405,
-                -0.0006919363307459024
-            ],
-            [
-                0.00034640833985786405,
-                -0.000690903268169165
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/10550.jpg",
-        "url": "http://data.townoflaplata.opendata.arcgis.com",
-        "scope": [
-            "local"
-        ],
-        "title": "Town of La Plata",
-        "id": "10550"
-    }
-},
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -38.7100482861641,
-                178.1673610483271
-            ],
-            [
-                -38.7100482861641,
-                177.90437581883512
-            ],
-            [
-                -38.602270639866745,
-                177.90437581883512
-            ],
-            [
-                -38.602270639866745,
-                178.1673610483271
-            ]
-        ]
-    },
+//     "properties": {
+//         "img": "/gallery/images/10194.jpg",
+//         "url": "http://forestrybureau.idt.opendata.arcgis.com",
+//         "scope": [
+//             "international"
+//         ],
+//         "title": "\u6797\u52d9\u5c40\u8cc7\u6599\u958b\u653e\u670d\u52d9\u5c08\u5340",
+//         "id": "10194"
+//     }
+// },
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.00038367045784851487,
+//                 -0.0007587170889673477
+//             ],
+//             [
+//                 0.00038367045784851487,
+//                 -0.0007591482803037251
+//             ],
+//             [
+//                 0.0003839040198205487,
+//                 -0.0007591482803037251
+//             ],
+//             [
+//                 0.0003839040198205487,
+//                 -0.0007587170889673477
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/10219.jpg",
+//         "url": "http://fis.msugis.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "MSU Infrastructure Planning and Facilities GeoPortal",
+//         "id": "10219"
+//     }
+// },
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.0003460400305952509,
+//                 -0.000690903268169165
+//             ],
+//             [
+//                 0.0003460400305952509,
+//                 -0.0006919363307459024
+//             ],
+//             [
+//                 0.00034640833985786405,
+//                 -0.0006919363307459024
+//             ],
+//             [
+//                 0.00034640833985786405,
+//                 -0.000690903268169165
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/10550.jpg",
+//         "url": "http://data.townoflaplata.opendata.arcgis.com",
+//         "scope": [
+//             "local"
+//         ],
+//         "title": "Town of La Plata",
+//         "id": "10550"
+//     }
+// },
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -38.7100482861641,
+//                 178.1673610483271
+//             ],
+//             [
+//                 -38.7100482861641,
+//                 177.90437581883512
+//             ],
+//             [
+//                 -38.602270639866745,
+//                 177.90437581883512
+//             ],
+//             [
+//                 -38.602270639866745,
+//                 178.1673610483271
+//             ]
+//         ]
+//     },
     "properties": {
         "img": "/gallery/images/9726.jpg",
         "url": "http://gisdata.gizzy.opendata.arcgis.com",
@@ -5567,70 +5567,70 @@ let sites = [
         "id": "12342"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.0004434084242462126,
-                2.21524549063874e-05
-            ],
-            [
-                0.0004434084242462126,
-                -8.048904945710912e-05
-            ],
-            [
-                0.0005370398263064663,
-                -8.048904945710912e-05
-            ],
-            [
-                0.0005370398263064663,
-                2.21524549063874e-05
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/7592.jpg",
-        "url": "http://geoportal.statistics.gov.uk",
-        "scope": [
-            "ngo"
-        ],
-        "title": "ONS Geography Portal",
-        "id": "7592"
-    }
-},
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.0002183355298013725,
-                -0.0007098217880527222
-            ],
-            [
-                0.0002183355298013725,
-                -0.0007895652358240121
-            ],
-            [
-                0.0002809570882530906,
-                -0.0007895652358240121
-            ],
-            [
-                0.0002809570882530906,
-                -0.0007098217880527222
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/11623.jpg",
-        "url": "http://data.waterinstitute.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "The Water Institute at USF",
-        "id": "11623"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.0004434084242462126,
+//                 2.21524549063874e-05
+//             ],
+//             [
+//                 0.0004434084242462126,
+//                 -8.048904945710912e-05
+//             ],
+//             [
+//                 0.0005370398263064663,
+//                 -8.048904945710912e-05
+//             ],
+//             [
+//                 0.0005370398263064663,
+//                 2.21524549063874e-05
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/7592.jpg",
+//         "url": "http://geoportal.statistics.gov.uk",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "ONS Geography Portal",
+//         "id": "7592"
+//     }
+// },
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.0002183355298013725,
+//                 -0.0007098217880527222
+//             ],
+//             [
+//                 0.0002183355298013725,
+//                 -0.0007895652358240121
+//             ],
+//             [
+//                 0.0002809570882530906,
+//                 -0.0007895652358240121
+//             ],
+//             [
+//                 0.0002809570882530906,
+//                 -0.0007098217880527222
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/11623.jpg",
+//         "url": "http://data.waterinstitute.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "The Water Institute at USF",
+//         "id": "11623"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
@@ -6399,38 +6399,38 @@ let sites = [
         "id": "2466"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                0.00031477865871011904,
-                -0.0007661102237556515
-            ],
-            [
-                0.00031477865871011904,
-                -0.0007662988699653165
-            ],
-            [
-                0.0003148684902456534,
-                -0.0007662988699653165
-            ],
-            [
-                0.0003148684902456534,
-                -0.0007661102237556515
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/2745.jpg",
-        "url": "http://utcsustainability.congeo.opendata.arcgis.com",
-        "scope": [
-            "ngo"
-        ],
-        "title": "UTC Office of Sustainability",
-        "id": "2745"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 0.00031477865871011904,
+//                 -0.0007661102237556515
+//             ],
+//             [
+//                 0.00031477865871011904,
+//                 -0.0007662988699653165
+//             ],
+//             [
+//                 0.0003148684902456534,
+//                 -0.0007662988699653165
+//             ],
+//             [
+//                 0.0003148684902456534,
+//                 -0.0007661102237556515
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/2745.jpg",
+//         "url": "http://utcsustainability.congeo.opendata.arcgis.com",
+//         "scope": [
+//             "ngo"
+//         ],
+//         "title": "UTC Office of Sustainability",
+//         "id": "2745"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
