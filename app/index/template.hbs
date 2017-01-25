@@ -4,22 +4,18 @@
  --}}
 
 <div id="map">
-{{#leaflet-map lat=20.3907243 lng=11.8715978 zoom=3}}
-	{{tile-layer url='https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png'}}
+{{#leaflet-map lat=20.3907243 lng=11.8715978 zoom=3 onLoad=(action "onLoad")}}
 	
 	{{#each filteredSites as |extent|}}
 
-		{{#polygon-layer locations=extent.geometry.coordinates color='blue'}}
+		{{#polygon-layer locations=extent.geometry.coordinates color='black'}}
 		{{#tooltip-layer sticky=true}}
-			{{extent.properties.title}}
+			<strong>{{extent.properties.title}}</strong>
+			<br>
 			{{extent.properties.url}}
 		{{/tooltip-layer}}
 		{{/polygon-layer}}
 	{{/each}}
-
-	
-	
-	
 
 {{/leaflet-map}}
 </div>
@@ -53,7 +49,7 @@
 								  	</label>
 								  	<br>
 								  	<label>
-								   	{{#link-to (query-params scope='international') id="international" class="ember-view"}}International{{/link-to}}
+								   	{{#link-to (query-params scope='multinational') id="multinational" class="ember-view"}}Multinational{{/link-to}}
 								  	</label>
 								  	<br>
 								  	<label>

@@ -10,7 +10,7 @@ Router.map(function() {
   this.route('state');
   this.route('national');
   this.route('ngo');
-  this.route('international');
+  this.route('multinational');
 });
 
 export default Router;
