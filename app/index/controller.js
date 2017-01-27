@@ -9,7 +9,6 @@ export default Ember.Controller.extend({
 		var scope = this.get('scope');
 		var index = this.get('model');
 		
-		
 		// console.log(coordinates);
 		if (scope) {
 			return index.filter ( site =>{

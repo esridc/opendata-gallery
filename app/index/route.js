@@ -5537,38 +5537,38 @@ let sites = [
         "id": "9152"
     }
 },
-{
-    "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-            [
-                -4.747137020763857,
-                66.62140624999368
-            ],
-            [
-                -4.747137020763857,
-                -103.18328124996198
-            ],
-            [
-                35.31207558023455,
-                -103.18328124996198
-            ],
-            [
-                35.31207558023455,
-                66.62140624999368
-            ]
-        ]
-    },
-    "properties": {
-        "img": "/gallery/images/7985.jpg",
-        "url": "http://data.servirgit.opendata.arcgis.com",
-        "scope": [
-            "national"
-        ],
-        "title": "SERVIR Geospatial Information Technology",
-        "id": "7985"
-    }
-},
+// {
+//     "geometry": {
+//         "type": "Polygon",
+//         "coordinates": [
+//             [
+//                 -4.747137020763857,
+//                 66.62140624999368
+//             ],
+//             [
+//                 -4.747137020763857,
+//                 -103.18328124996198
+//             ],
+//             [
+//                 35.31207558023455,
+//                 -103.18328124996198
+//             ],
+//             [
+//                 35.31207558023455,
+//                 66.62140624999368
+//             ]
+//         ]
+//     },
+//     "properties": {
+//         "img": "/gallery/images/7985.jpg",
+//         "url": "http://data.servirgit.opendata.arcgis.com",
+//         "scope": [
+//             "national"
+//         ],
+//         "title": "SERVIR Geospatial Information Technology",
+//         "id": "7985"
+//     }
+// },
 {
     "geometry": {
         "type": "Polygon",
