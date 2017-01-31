@@ -22,7 +22,9 @@ export default Ember.Controller.extend({
 
 	actions: {
 		onLoad(e) {
-			L.esri.basemapLayer("Gray"). addTo(e.target);
+			L.esri.basemapLayer("Gray").addTo(e.target);
+            L.esri.basemapLayer('GrayLabels').addTo(e.target);
+
 		}
 	}
 });

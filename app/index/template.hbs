@@ -8,7 +8,7 @@
 	
 	{{#each filteredSites as |extent|}}
 
-		{{#polygon-layer locations=extent.geometry.coordinates color='black'}}
+		{{#polygon-layer locations=extent.geometry.coordinates color='white' fillColor='rgb(93, 173, 221)' weight='1' }}
 		{{#tooltip-layer sticky=true}}
 			<strong>{{extent.properties.title}}</strong>
 			<br>
