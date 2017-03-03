@@ -1,9 +1,10 @@
 # open-data-gallery
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the source code for the [Open Data Gallery](http://open-data-gallery.surge.sh/) which showcases what organizations have done with their [ArcGIS Open Data] sites.
 
-## Prerequisites
+## Development Instructions
+
+### Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -13,14 +14,14 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+### Installation
 
 * `git clone <repository-url>` this repository
 * `cd open-data-gallery`
 * `npm install`
 * `bower install`
 
-## Running / Development
+### Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -43,10 +44,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
+## Resources
 
+* [ArcGIS Open Data]
 * [ember.js](http://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+[ArcGIS Open Data]:http://opendata.arcgis.com/about
