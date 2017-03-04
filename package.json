@@ -1,14 +1,16 @@
 {
   "name": "open-data-gallery",
   "version": "0.0.0",
-  "description": "Small description for open-data-gallery goes here",
-  "license": "MIT",
-  "author": "",
+  "description": "This is the source code for the Open Data Gallery which showcases what organizations have done with their ArcGIS Open Data sites",
+  "license": "Apache-2.0",
+  "author": "Esri DC",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcGIS/opendata-gallery.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -49,5 +51,15 @@
   "private": true,
   "dependencies": {
     "broccoli-funnel": "^1.1.0"
-  }
+  },
+  "main": "ember-cli-build.js",
+  "keywords": [
+    "Esri",
+    "ArcGIS",
+    "Open Data"
+  ],
+  "bugs": {
+    "url": "https://github.com/ArcGIS/opendata-gallery/issues"
+  },
+  "homepage": "https://github.com/ArcGIS/opendata-gallery#readme"
 }
